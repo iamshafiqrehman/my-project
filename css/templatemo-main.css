@@ -336,11 +336,11 @@ nav a:hover::before {
 }
 
 .first-content h2 {
-	font-size: 36px;
+	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
-	letter-spacing: 0.5px;
+	letter-spacing: 0px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
 	padding-bottom: 10px;
@@ -353,9 +353,10 @@ nav a:hover::before {
 	font-size: 13px;
 	text-transform: capitalize;
 	font-weight: 300;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	line-height: 26px;
 	margin-bottom: 20px;
+	text-align: justify;
 }
 
 .first-content em {
@@ -441,8 +442,9 @@ nav a:hover::before {
 
 .second-content p {
 	font-size: 13px;
+	text-align: justify;
 	color: #fff;
-	letter-spacing: 0.5px;
+	letter-spacing: -0.5px;
 	font-weight: 300;
 	line-height: 24px;
 	margin-bottom: 30px;
@@ -514,7 +516,7 @@ nav a:hover::before {
 
 .third-content h3{
 
-	font-size: 10px;
+	font-size: 23px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #ffffff;
@@ -528,7 +530,7 @@ nav a:hover::before {
 }
 
 .third-content h4 {
-	font-size: 10px;
+	font-size: 19px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #ffffff;
@@ -556,11 +558,11 @@ nav a:hover::before {
 
 
 .third-content p {
-	font-size: 13px;
+	font-size: 12px;
 	color: #ffffff;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	font-weight: 300;
-	line-height: 24px;
+	line-height: 39px;
 	margin-bottom:0.5px;
 	text-align: justify;
 	
