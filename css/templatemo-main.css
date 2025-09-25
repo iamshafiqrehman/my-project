@@ -587,15 +587,10 @@ nav a:hover::before {
     font-size: 21px;
 	line-height: 0px;
     font-weight: 100;
-    
+    }
 }
-}
 
-
-
-
-
-.third-content h3{
+.third-content h3 {
 
 	font-size: 23px;
 	text-transform: uppercase;
@@ -653,17 +648,28 @@ nav a:hover::before {
 }
 
 
-
 .third-content p {
-	font-size: 15px;
+	font-size: 13px;
 	color: #ffffff;
-	letter-spacing: 0px;
+	letter-spacing: 1px;
 	font-weight: 300;
 	line-height: 33px;
 	margin-bottom:0.5px;
 	text-align: justify;
 	
 }
+
+/* Tablet (max-width: 768px) */
+
+@media (max-width: 350px) {
+
+  .third-content p {
+    font-size: 18px;
+	letter-spacing: 0px;   
+	}l
+    }
+
+
 
 p.bullet::before {
 	content: "• "; /* Unicode for bullet */
