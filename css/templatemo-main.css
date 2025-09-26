@@ -572,19 +572,15 @@ nav a:hover::before {
 
 }
 
-/* Tablet (max-width: 768px) */
-@media (max-width: 768px) {
-  .third-content h2 {
-    font-size: 23px;
-    line-height: 0px;
-	font-weight: 100;    
-  }
-}
+/* Tablet (max-width: 8px) */
+
+
+
 
 /* Mobile (max-width: 480px) */
 @media (max-width: 350px) {
   .third-content h2 {
-    font-size: 21px;
+    font-size: px;
 	line-height: 0px;
     font-weight: 100;
     }
@@ -604,6 +600,9 @@ nav a:hover::before {
 	margin-top: 10px;
 
 }
+
+
+
 /* Tablet (max-width: 768px) */
 
 @media (max-width: 768px) {
@@ -614,12 +613,7 @@ nav a:hover::before {
 }
 
 /* Mobile (max-width: 480px) */
-@media (max-width: 480px) {
-  .third-content h3 {
-    font-size: 18px;
-    line-height: 20px;
-  l}
-}
+
 
 .third-content h4 {
 	font-size: 19px;
@@ -634,6 +628,7 @@ nav a:hover::before {
 
 }
 
+
 .third-content h5 {
 	font-size: 10px;
 	text-transform: uppercase;
@@ -642,7 +637,7 @@ nav a:hover::before {
 	letter-spacing: 0.5px;
 	display: inline-block;
  	padding-bottom: 10px;
-	margin-bottom: 0.5px;
+	margin-bottom: 1px;
 	margin-top: 0px;
 
 }
@@ -656,24 +651,11 @@ nav a:hover::before {
 	line-height: 33px;
 	margin-bottom:0.5px;
 	text-align: justify;
-	
 }
-
-/* Tablet (max-width: 768px) */
-
-@media (max-width: 350px) {
-
-  .third-content p {
-    font-size: 18px;
-	letter-spacing: 0px;   
-	}l
-    }
-
-
 
 p.bullet::before {
 	content: "• "; /* Unicode for bullet */
-	color: #ffffff(255, 255, 255);  /* Optional: bullet color */
+	color: #ffffff; /*(255, 255, 255);  /* Optional: bullet color */
 	font-weight: bold;
   }
 
