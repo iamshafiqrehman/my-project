@@ -607,7 +607,7 @@ nav a:hover::before {
 
 @media (max-width: 768px) {
   .third-content h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
     }
 }
@@ -846,7 +846,7 @@ p.bullet::before {
 
 .footer .content p {
 	text-align: center;
-	font-size: 17px;
+	font-size: 10px;
 	color: #fff;
 	margin-bottom: 20px;
 }
