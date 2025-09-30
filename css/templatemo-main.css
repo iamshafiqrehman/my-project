@@ -643,13 +643,13 @@ nav a:hover::before {
 }
 
 
-.third-content p {
+.third-content p  {
 	font-size: 13px;
 	color: #ffffff;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	font-weight: 300;
-	line-height: 33px;
-	margin-bottom:0.5px;
+	line-height: 24px;
+	margin-bottom:25px;
 	text-align: justify;
 }
 
@@ -659,9 +659,7 @@ p.bullet::before {
 	font-weight: bold;
   }
 
-
-
-
+  
 .third-content .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
